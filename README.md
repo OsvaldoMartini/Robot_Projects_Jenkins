@@ -25,4 +25,6 @@ robot --outputdir RestAPI-Scripts\Reports --timestampoutputs RestAPI-Scripts\All
 // Execution By Folder (Tests Suites)
 robot --outputdir RestAPI-Scripts\Reports --timestampoutputs RestAPI-Scripts\All_Tests\Post_UserLogin_JsonFile
 
+// Execution By Folder (Tests Suites)
+robot --outputdir RestAPI-Scripts\Reports --timestampoutputs RestAPI-Scripts\All_Tests\All_Tests
 
