@@ -2,13 +2,13 @@
 Library  RequestsLibrary
 Library  JSONLibrary
 Library  Collections
-Resource  Resources/UserKeyword.robot
+Resource  ../../Resources/UserKeyword.robot
 
 *** Variables ***
 ${App_Base_URL}  http://localhost:9095 
 
 *** Test Cases ***
-TC_008 User Login Resource
+TC_008_UserLogin_JsonFile
 	create session  UserLogin  ${App_Base_URL}
 	${header}=  create dictionary  Content-Type=application/json
 	${json_content}=  Fetch Request Content  UsersLogin.json

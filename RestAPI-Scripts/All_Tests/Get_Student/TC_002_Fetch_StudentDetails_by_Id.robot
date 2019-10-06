@@ -6,7 +6,7 @@ ${App_Base_URL}  http://thetestingworldapi.com
 ${StudentID}  145902
 
 *** Test Cases ***
-TC_001_Fetch_Student_details_by_id
+TC_002_Fetch_StudentDetails_by_Id
 	create session  Fetch_Data  ${App_Base_URL}
 	${response}=  get request  Fetch_Data  api/studentsDetails/${StudentID}
 	${actual_code}=	convert to string	${response.status_code}

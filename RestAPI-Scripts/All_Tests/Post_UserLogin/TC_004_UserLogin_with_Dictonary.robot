@@ -8,7 +8,7 @@ Library  Collections
 ${App_Base_URL}  http://localhost:9095 
 
 *** Test Cases ***
-TC_004 User Login Resource
+TC_004_UserLogin_with_Dictonary
 	create session  UserLogin  ${App_Base_URL}
 	${header}=  create dictionary  Content-Type=application/json
 	${body}=  create dictionary  username=osvaldo.martini@gmail.com  password=martini
