@@ -2,6 +2,12 @@
 
 * dowloand Generic Javapackage.war
 
+Unzip "jar" Files
+````
+	jar xf file.jar
+````
+
+
 > https://jenkins.io/download/
 
 run :
